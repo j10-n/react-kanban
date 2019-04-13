@@ -1,0 +1,130 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.app {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-right: 70px;
+  margin-left: 50px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.container h2 {
+  font-family: "Archivo", sans-serif;
+  font-weight: bold;
+}
+
+.card {
+  background-color: rgba(211, 211, 211, 0.3);
+  font-family: "Archivo", sans-serif;
+  padding: 5px;
+  margin-bottom: 15px;
+  -webkit-box-shadow: 4px 8px 6px -6px #777;
+  -moz-box-shadow: 4px 8px 6px -6px #777;
+  box-shadow: 4px 8px 6px -6px #777;
+}
+
+.card button {
+  background-color: rgba(44, 62, 80, 0.9);
+  color: rgba(236, 240, 241, 1);
+  padding: 3px;
+  margin: 3px;
+}
+
+/* .donezo {
+  background-color: rgba(56, 142, 60, 1);
+}
+.inProgress {
+  background-color: rgba(255, 152, 0, 1);
+}
+.inQueue {
+  background-color: rgba(183, 28, 28, 1);
+} */
+.panel-body {
+  font-family: "Archivo", sans-serif;
+  background-color: rgba(211, 211, 211, 0.3);
+  padding: 10px;
+  max-height: 415px;
+  margin-left: 15px;
+  outline: 1px solid rgba(186, 186, 186, 0.605);
+}
+.panel-body button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 175px;
+}
+h5 {
+  font-weight: bold;
+  font-family: "Archivo", sans-serif;
+}
+h6 {
+  font-weight: bold;
+  padding: 0px;
+  margin: 0px;
+}
+/* 
+.queue {
+  border-right: 3px solid gray;
+  margin-right: 20px;
+}
+.queue *:not(h1) {
+  display: flex;
+  background: rgba(255, 160, 122, 0.2);
+  padding: 20px;
+  outline: 1px solid black;
+  flex-flow: row nowrap;
+  align-content: center;
+}
+
+.progress {
+  border-right: 3px solid gray;
+  margin: 20px;
+}
+.progress *:not(h1) {
+  display: flex;
+  background: rgba(144, 238, 144, 0.2);
+  padding: 20px;
+  outline: 1px solid black;
+  flex-flow: row nowrap;
+  margin: 10px;
+}
+
+.donezo *:not(h1) {
+  display: flex;
+  background: rgba(112, 128, 144, 0.2);
+  padding: 20px;
+  outline: 1px solid black;
+  flex-flow: row nowrap;
+  margin: 10px;
+} */
